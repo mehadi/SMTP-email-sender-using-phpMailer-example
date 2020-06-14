@@ -11,7 +11,7 @@ $mail->Username='__SMTP_USERNAME_OR_YOUR_EMAIL_ADDRESS__';
 $mail->Password='__SMTP_PASSWORD_OR_YOUR_PASSWORD__';
 $mail->setFrom('__SMTP_USERNAME_OR_YOUR_EMAIL_ADDRESS__','NAME');
 $mail->addAddress('bdmehadih@gmail.com'); // Where you want to send the mail.
-$mail->addReplyTo('andrewagendi@gmail.com'); // Where you want to get the reply.
+$mail->addReplyTo('bdmehadih@gmail.com'); // Where you want to get the reply.
 $mail->isHTML(true);
 $mail->Subject='Email subject';
 $mail->Body='Email body.';
